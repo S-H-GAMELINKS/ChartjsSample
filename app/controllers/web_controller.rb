@@ -1,6 +1,6 @@
 class WebController < ApplicationController
   def index
-    data = {
+    @data = {
       labels: ["January", "February", "March", "April", "May", "June", "July"],
       datasets: [
         {
@@ -17,6 +17,6 @@ class WebController < ApplicationController
         }
       ]
     }
-    options = { ... }
+    @options = {}
   end
 end
