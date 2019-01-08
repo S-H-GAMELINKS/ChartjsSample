@@ -17,6 +17,9 @@ class WebController < ApplicationController
         }
       ]
     }
-    @options = {}
+    @options = {
+      width: 0.5,
+      height: 0.5
+    }
   end
 end
